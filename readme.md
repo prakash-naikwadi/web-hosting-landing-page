@@ -1,24 +1,10 @@
-## started at 6.45pm to 9 pm
-
-## again started at 10 pm to 1.45pm
-
-## what I learn
-
-- learn about z-pattern of deisgning feature section.
-- apply griedient on button.
-- placed elements using flex and width property
-- How to develope full fledge landing page.
-- Learn how to design pricing cards.
-- Learn how to design testimonial sections.
-- Learn how to use grid for footer columns and pricing cards.
-
 ## ⭐ Developer Landing Page Project 09 ⭐
 
 This is a assignment given in **"JavaScript Full Stack Web Developer Bootcamp"** by **iNeuron**, built using **HTML5 and CSS3**.
 <br>
 <br>
 
-## 📌 **Live Site URL:** <a href="https://prakash-naikwadi.github.io/developer-landing-page/">**Visit Now** 🚀</a>
+## 📌 **Live Site URL:** <a href="https://prakash-naikwadi.github.io/web-hosting-landing-page/">**Visit Now** 🚀</a>
 
 <br>
 
