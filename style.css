@@ -264,7 +264,7 @@ header {
 .pricing-section-heading {
   font-size: 3.2rem;
   font-weight: 600;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.795);
   text-align: center;
 }
 
@@ -281,8 +281,8 @@ header {
 }
 
 .pricing-plan-heading-active {
-  background-color: #000;
-  color: #fff;
+  background-color: #242b2e;
+  color: rgba(255, 255, 255, 0.692);
   border-radius: 10px;
   padding-bottom: 2.4rem;
 }
