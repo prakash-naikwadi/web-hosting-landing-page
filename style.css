@@ -71,18 +71,16 @@ header {
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-  /* flex: 1; */
   width: 12.4rem;
 }
 
 .nav-list {
-  /* flex: 1; */
   display: flex;
   gap: 4.6rem;
-  width: 70%;
 
   list-style: none;
 }
@@ -103,6 +101,8 @@ header {
   color: #068ff1 !important;
 
   border-radius: 5px;
+  /* flex: 1; */
+  flex-shrink: 1;
 }
 
 /* ------------------------- */
@@ -562,4 +562,118 @@ header {
 
 .social-media-col-list img {
   width: 3.5rem;
+}
+
+/* ********************************************** */
+/* Media Queries */
+/* ********************************************** */
+
+@media screen and (max-width: 62.5em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 51em) {
+  .nav-list-hide {
+    display: none;
+  }
+
+  .feature-container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .col-reverse {
+    flex-direction: column;
+  }
+
+  .feature-details {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .pricing-section-container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 3.2rem;
+  }
+
+  .pricing-card {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 49em) {
+  .call-to-action-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 4.8rem;
+  }
+  .call-to-action-left-side {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 3.2rem;
+  }
+
+  .logo-col {
+    grid-column: span 3;
+    grid-row: 2;
+  }
+
+  .social-media-col {
+    grid-row: 2;
+    grid-column: span 3;
+  }
+
+  .menu-col {
+    grid-column: span 2;
+  }
+
+  .overview-col {
+    grid-column: span 2;
+  }
+  .links-col {
+    grid-column: span 2;
+  }
+}
+
+@media screen and (max-width: 32.5em) {
+  html {
+    font-size: 40%;
+  }
+  .customers-tetimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .services {
+    grid-template-columns: 1fr;
+  }
+
+  .services-description {
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .services-heading {
+    margin-right: 0;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 25em) {
+  html {
+    font-size: 35%;
+  }
 }

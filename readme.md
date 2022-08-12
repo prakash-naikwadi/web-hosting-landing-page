@@ -1,6 +1,6 @@
 ## ⭐ Web Hosting Landing Page Project 11 ⭐
 
-This is a assignment given in **"JavaScript Full Stack Web Developer Bootcamp"** by **iNeuron**, built using **HTML5 and CSS3**.
+This is an assignment given in **"JavaScript Full Stack Web Developer Bootcamp"** by **iNeuron**, built using **HTML5 and CSS3**.
 <br>
 <br>
 
@@ -30,13 +30,13 @@ This is a assignment given in **"JavaScript Full Stack Web Developer Bootcamp"**
 
 ## 📌 What I Learn
 
-👉 learn about z-pattern of deisgning feature section.  
-👉 apply griedient on button.  
-👉 placed elements using flex and width property.  
-👉 How to develope full fledge landing page.  
+👉 learn about the z-pattern of designing feature section.  
+👉 apply a gradient on the button.  
+👉 placed elements using flex and width properties.  
+👉 How to develop full fledge landing page.  
 👉 Learn how to design pricing cards.  
 👉 Learn how to design testimonial sections.  
-👉 Learn how to use grid for footer columns and pricing cards.
+👉 Learn how to use a grid for footer columns and pricing cards.
 
 ## 📬 Connect With Me
 
